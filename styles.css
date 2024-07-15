@@ -934,4 +934,14 @@ html {
         letter-spacing: 0;
         line-height: normal;
       }
-      
+
+#blabla {
+  aspect-ratio: 1;
+  width: 20em;
+  background-color: red;
+}
+
+#blabla:hover {
+  /* background-color: blue; */
+  background-image: url("ring.png");
+}
