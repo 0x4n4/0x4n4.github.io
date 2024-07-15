@@ -74,7 +74,6 @@ html {
 }
 
 #content > * {
-  
         max-width: 100em;
         margin: auto;
 }
