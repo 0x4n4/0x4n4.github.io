@@ -945,3 +945,17 @@ html {
   /* background-color: blue; */
   background-image: url("ring.png");
 }
+
+
+#power {
+  aspect-ratio: 0.9;
+  width: 450px; height: 300px;
+  background-image: url(powerofus.svg);
+  link
+}
+
+#power:hover {
+  aspect-ratio: 1;
+  width: 450px; height: 300px;
+    background-image: url(powerofushower.svg);
+}
