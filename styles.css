@@ -64,7 +64,9 @@ html {
         align-items: center;
         display: inline-flex;
 }
-
+.img{
+        object-fit: fill;
+}
 
 #bigmock {
         margin: 4em;
