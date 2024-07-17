@@ -50,8 +50,19 @@ html {
 }
 
 #logo {
-        position: fixed;
-        margin: 0em;
+        
+        position:fixed;
+        
+        padding-top:0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        background: #383434;
+        box-shadow: 0px 0.25em 0.24em rgba(56, 52, 52, 0.25);
+        border-radius: 1.5em;
+        justify-content: center;
+        align-items: center;
+        display: inline-flex;
 }
 
 
@@ -65,19 +76,17 @@ html {
 #b{
   color:#6a6767;
 }
-#size20 {font-size: 1.3;
-        color:#383434 ;
 
-}
+
+
 #c{
   color:#E7E2E2;
-  font-size: 18px; font-weight: 400; text-transform: lowercase; text-decoration: none;
+  font-size: 1em;
+   font-weight: 400;
+    text-decoration: none;
 }
 
-#size24 {
-        font-size: 1.5em; 
-        color:#383434;
-}
+
 
 #content > * {
   
@@ -85,40 +94,26 @@ html {
         margin: auto;
 }
 
-#size12{
-        font-size: 0.75em; 
-        font-weight: 400;
-        color:#383434;
 
-}
-#h2{
-  font-size: 1.2em; 
+.h2 {     /*  */
+  font-size: 1.25em; 
   color:#383434;
-  font-weight: 800; 
+  font-weight: 700; 
   text-transform: uppercase; 
-  padding-top:2em; 
-  padding-bottom:0.5em; 
   align-self: stretch; 
+}
+.pad{
+        padding-top: 2em;
+        padding-bottom: 2em;
+        width:60%;
 }
 
-#text{
-  font-size: 1.2em; 
-  color:#383434;
-  font-weight: 300; 
-  padding-bottom:0.5em; 
-  align-self: stretch; 
-}
-#bold{
-  font-size: 1.2em; 
-  color:#383434;
-  font-weight: 600; 
-  padding-bottom:0.5em; 
-  align-self: stretch; 
-}
+
+
 .frame {
         display: flex;
         flex-wrap: wrap;
-        width: 950px;
+        /* width: 950px; */
         align-items: center;
         justify-content: center;
         gap: 42px 42px;
@@ -127,13 +122,13 @@ html {
       
       .frame .component {
         position: relative;
-        width: 450px;
+        /* width: 450px; */
         height: 300px;
       }
       
       .frame .img {
         position: relative;
-        width: 480px;
+        /* width: 480px; */
         height: 318px;
       }
 
@@ -153,28 +148,97 @@ html {
 }
 
 
-#power {
-  aspect-ratio: 0.8;
-  width: 450px; height: 300px;
-  background-image: url(index/powerofus.svg);
- 
+
+
+.descr {
+        color: #383434; 
+        font-size: 0.75em; 
+        font-family: Hauora; 
+        font-weight: 300;
+        align-self: stretch; 
+}
+.tx {
+        color: #383434; 
+        font-size: 1.15em; 
+        font-family: Hauora; 
+        font-weight: 300;
+        align-self: stretch; 
+}
+.stat {
+        color: #383434; 
+        font-size: 1.25em; 
+        font-family: Hauora; 
+        font-weight: 300;
+        align-self: stretch; 
+}
+.bo {
+        font-weight: 600;
+}
+.hd{
+        align-self: stretch;  
+        flex-direction: column; 
+        justify-content: flex-start; 
+        align-items: flex-start; 
+        display: flex;  
+}
+.block{
+        align-self: stretch; 
+        flex-direction: column; 
+        justify-content: flex-start; 
+        align-items: flex-start; 
+        gap: 0.5em; 
+        display: flex;
+        padding-top:2em; 
+        padding-bottom:2em;
+
+}
+.col{
+      width: 18.75em; 
+      flex-direction: column; 
+      justify-content: flex-start; 
+      align-items: center; 
+      gap: 4em; 
+      display: inline-flex"
+}
+.date{
+        align-self: stretch; 
+        justify-content: space-between;
+        align-items: center; 
+        display: inline-flex
 }
 
-#power:hover {
-  aspect-ratio: 1;
-  width: 450px; height: 300px;
-  background-image: url(index/powerofushower.svg);
+
+
+.preview-image {
+        width: 28.125em;
+        height: 18.75em;
+        display: inline-block;
 }
 
-#jew {
-  aspect-ratio: 0.8;
-  width: 450px; height: 300px;
-  background-image: url(index/jew.svg);
- 
+.power {
+        background-image: url(/index/si.svg);
 }
 
-#jew:hover {
-  aspect-ratio: 1;
-  width: 450px; height: 300px;
-  background-image: url(index/jewhover.svg);
+.power:hover {
+        background-image: url(/index/si_hover.svg);
+}
+
+.jew {
+        background-image: url(index/jew.svg);
+}
+
+.jew:hover {
+        background-image: url(/index/jew_hover.svg);
+}
+
+.center {
+        width: 66em;
+        margin-left: auto;
+}
+
+.line{
+        justify-content: center;
+         width:100%; 
+         height:0.001em; 
+         border:0.07em dotted;
 }
