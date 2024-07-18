@@ -64,8 +64,13 @@ html {
         align-items: center;
         display: inline-flex;
 }
+
+
 .img{
+        max-width: 40em;
         object-fit: fill;
+       
+        ;
 }
 
 #bigmock {
@@ -107,7 +112,7 @@ html {
 .pad{
         padding-top: 2em;
         padding-bottom: 2em;
-        width:60%;
+        width:75%;
 }
 
 
