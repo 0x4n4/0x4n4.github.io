@@ -166,6 +166,13 @@ html {
         font-weight: 300;
         align-self: stretch; 
 }
+.tx1 {
+        color: #383434; 
+        font-size: 1em; 
+        font-family: Hauora; 
+        font-weight: 300;
+        align-self: stretch; 
+}
 .stat {
         color: #383434; 
         font-size: 1.25em; 
