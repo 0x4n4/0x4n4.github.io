@@ -159,7 +159,7 @@ html {
 
 .descr {
         color: #383434; 
-        font-size: 0.75em; 
+        font-size: 1em; 
         font-family: Hauora; 
         font-weight: 300;
         align-self: stretch; 
@@ -224,25 +224,25 @@ html {
 
 
 .preview-image {
-        width: 28.125em;
-        height: 18.75em;
+        width: 31.25em;
+        height: 21.875em;
         display: inline-block;
 }
 
 .power {
-        background-image: url(/index/si.svg);
+        background-image: url(/index/soclial_impact_chill.svg);
 }
 
 .power:hover {
-        background-image: url(/index/si_hover.svg);
+        background-image: url(/index/social_impact_hover.svg);
 }
 
 .jew {
-        background-image: url(index/jew.svg);
+        background-image: url(/index/schmuck_chill.svg);
 }
 
 .jew:hover {
-        background-image: url(/index/jew_hover.svg);
+        background-image: url(/index/schmuck_hover.svg);
 }
 
 .center {
