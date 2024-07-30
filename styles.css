@@ -255,6 +255,15 @@ html {
 .redesign:hover {
         background-image: url(/index/redesign_hover.svg);
 }
+
+.habit {
+        background-image: url(/index/habit_chill.svg);
+}
+
+.habit:hover {
+        background-image: url(/index/habit_hover.svg);
+}
+
 .center {
         width: 66em;
         margin-left: auto;
