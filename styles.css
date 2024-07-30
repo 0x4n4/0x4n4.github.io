@@ -111,10 +111,10 @@ html {
 
 
 .h2 {     /*  */
-  font-size: 1.75em; 
-  font-family: SCRIBBLEHUMMBLE;
+  font-size: 1.5em; 
+ 
   color:#383434;
-  font-weight: 100; 
+  font-weight: 700; 
   text-transform: uppercase; 
   align-self: stretch; 
 }
@@ -170,7 +170,7 @@ html {
         color: #383434; 
         font-size: 1em; 
         font-family: Hauora; 
-        font-weight: 300;
+        font-weight: 100;
         align-self: stretch; 
 }
 .tx {
