@@ -40,11 +40,7 @@ src: url(fonts/web/Hauora-ExtraLight.woff2) format("woff2"),
         url(fonts/web/Hauora-ExtraLight.woff) format("woff");
 font-weight: 200;
 }
-@font-face {
-        font-family: SCRIBBLEHUMMBLE;
-        src: url(/fonts/SCRIBBLEHUMMBLE.woff) format("woff2"),
-                url(fonts/web/SCRIBBLEHUMMBLE.woff) format("woff");
-        }
+
 
 html {
     font-family: Hauora, monospace;
@@ -57,7 +53,7 @@ html {
 #logo {
         
         position:fixed;
-        font: SCRIBBLEHUMMBLE; 
+     
         padding-top:0.5em;
         padding-bottom: 0.5em;
       
@@ -94,9 +90,7 @@ html {
 #c{
 
  
-                color: #f6f2f2; 
-                  font-family: SCRIBBLEHUMMBLE; 
-                  font-size: 1.5em;
+               
                   
                    font-weight: 100;
                     text-decoration: none;}
@@ -112,7 +106,7 @@ html {
 
 .h2 {     /*  */
   font-size: 1.5em; 
- 
+ font-family: Hauora;
   color:#383434;
   font-weight: 700; 
   text-transform: uppercase; 
