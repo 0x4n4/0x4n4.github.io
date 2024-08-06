@@ -1,3 +1,8 @@
 {
-    "livePreview.defaultPreviewPath": "/index.html"
+    "livePreview.defaultPreviewPath": "/index.html",
+    "vscode-pets.throwBallWithMouse": true,
+    "vscode-pets.petType": "fox",
+    "vscode-pets.petColor": "akita",
+    "vscode-pets.petSize": "small",
+    "vscode-pets.theme": "forest"
 }
