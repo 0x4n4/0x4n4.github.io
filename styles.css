@@ -137,10 +137,11 @@ html {
 .pad{
         padding-top: 2em;
         padding-bottom: 2em;
+        
         width:75%;
 }
-
-
+.content{
+align-self: stretch; text-align: justify}
 
 .frame {
         display: flex;
