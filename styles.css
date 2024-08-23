@@ -169,6 +169,8 @@ html {
 }
 .tx {
         color: #383434; 
+        align-self: stretch;
+         text-align: justify;
         font-size: 1.15em; 
         font-family: Hauora; 
         font-weight: 300;
