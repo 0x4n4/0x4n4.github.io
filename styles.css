@@ -41,6 +41,11 @@ src: url(fonts/web/Hauora-ExtraLight.woff2) format("woff2"),
 font-weight: 200;
 }
 
+@font-face {
+        font-family: GamjaFlower;
+        src: url(/fonts/web/GamjaFlower-Regular.woff) format("woff");
+        
+                }
 
 html {
     font-family: Hauora, monospace;
@@ -81,11 +86,15 @@ html {
 #a {color:#383434 ;
         
 }
-#b{
+.b{
   color:#6a6767;
+  
 }
 
-
+.coral{
+        color:#EA5A58;
+        
+      }
 
 #c{
 
@@ -102,13 +111,26 @@ html {
         max-width: 100em;
         margin: auto;
 }
+.h1 {    
+        font-size: 1.75em; 
+       font-family:Hauora;
+        color:#383434;
+        font-weight: 700; 
+        text-transform: uppercase; 
+        align-self: stretch;}
+.h2 {    
+        font-size: 1.25em; 
+       font-family:Hauora;
+        color:#383434;
+        font-weight: 700; 
+        text-transform: uppercase; 
+        align-self: stretch;}
 
-
-.h2 {     /*  */
-  font-size: 1.3em; 
- font-family: Hauora;
+.h3 {    
+  font-size: 2.5em; 
+ font-family:GamjaFlower;
   color:#383434;
-  font-weight: 700; 
+  font-weight: 500; 
   text-transform: uppercase; 
   align-self: stretch; 
 }
@@ -146,11 +168,6 @@ html {
 
 
 
-#blabla {
-  aspect-ratio: 1;
-  width: 20em;
-  background-color: red;
-}
 
 #blabla:hover {
   /* background-color: blue; */
@@ -235,34 +252,42 @@ html {
 }
 
 .power {
+        width: 31.25em;
         background-image: url(/index/soclial_impact_chill.svg);
 }
 
 .power:hover {
+        width: 31.25em;
         background-image: url(/index/social_impact_hover.svg);
 }
 
 .jew {
+        width: 31.25em;
         background-image: url(/index/schmuck_chill.svg);
 }
 
 .jew:hover {
+        width: 31.25em;
         background-image: url(/index/schmuck_hover.svg);
 }
 
 .redesign{
+        width: 31.25em;
         background-image: url(/index/redesign_chill.svg);
 }
 
 .redesign:hover {
+        width: 31.25em;
         background-image: url(/index/redesign_hover.svg);
 }
 
 .habit {
+        width: 31.25em;
         background-image: url(/index/habit_chill.svg);
 }
 
 .habit:hover {
+        width: 31.25em;
         background-image: url(/index/habit_hover.svg);
 }
 
