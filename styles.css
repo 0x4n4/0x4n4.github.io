@@ -69,6 +69,7 @@ html {
         justify-content: center;
         align-items: center;
         display: inline-flex;
+        z-index: 99;
 }
 
 
@@ -309,3 +310,53 @@ align-self: stretch; text-align: justify}
          height: 100%;
           width: 100%;
 }
+
+
+
+.tags-list {
+        position: relative;
+        animation-name: run;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+}
+
+@keyframes run  {
+        0%   { left: 0; }
+        100%  {left: -100%; }
+}
+
+.tags-scrolles {
+        position: relative;
+        overflow: hidden;
+        white-space: nowrap;
+
+        width: 75%;
+        height: 2.5em;
+        border:  solid 0px;
+}
+
+.tags-scroll {
+        --scroll-time: 40s;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: fit-content;
+        white-space: nowrap;
+        animation: scrolling-loop var(--scroll-time) linear infinite;
+}
+
+.tags-scroll > div {
+        display: flex;
+        margin-right: 1em;
+        padding: .25em .25em;
+        align-items: center;
+        border: #383434  dashed 1px;
+        border-radius: 16px;
+        white-space: nowrap;
+}
+
+@keyframes scrolling-loop {
+        0% { transform: translateX(0%); }
+        100% { transform: translateX(-50%); }
+} 
