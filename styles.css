@@ -317,7 +317,18 @@ align-self: stretch; text-align: justify}
           width: 100%;
 }
 
-
+.img1{
+        object-fit: contain;
+       
+         height: 103%;
+          width: 103%;
+}
+.img2{
+        object-fit: contain;
+       
+         height: 175%;
+          width: 175%;
+}
 
 .tags-list {
         position: relative;
