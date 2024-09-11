@@ -254,49 +254,49 @@ align-self: stretch; text-align: justify}
 .power {
        
         background-image: url(/index/soclial_impact_chill.svg);
-        object-fit: contain;
+       
 }
 
 .power:hover {
        
         background-image: url(/index/social_impact_hover.svg);
-        object-fit: contain;
+        
 }
 
 .jew {
         
-        object-fit: contain;
+        
         background-image: url(/index/schmuck_chill.svg);
 }
 
 .jew:hover {
        
         background-image: url(/index/schmuck_hover.svg);
-        object-fit: contain;
+       
 }
 
 .redesign{
        
         background-image: url(/index/redesign_chill.svg);
-        object-fit: contain;
+       
 }
 
 .redesign:hover {
        
         background-image: url(/index/redesign_hover.svg);
-        object-fit: contain;
+      
 }
 
 .habit {
        
         background-image: url(/index/habit_chill.svg);
-        object-fit: contain;
+       
 }
 
 .habit:hover {
        
         background-image: url(/index/habit_hover.svg);
-        object-fit: contain;
+      
 }
 
 .center {
