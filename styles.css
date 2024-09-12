@@ -246,8 +246,8 @@ align-self: stretch; text-align: justify}
 
 
 .preview-image {
-        width: 31.25em;
-        height: 21.875em;
+        width: min(31.25em, 100vw);
+        height: min(21.875em, 100vw);
         display: inline-block;
 }
 
