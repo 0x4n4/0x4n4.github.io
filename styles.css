@@ -147,12 +147,21 @@ html {
   text-transform: uppercase; 
   align-self: stretch; 
 }
+
 .pad{
         padding-top: 2em;
         padding-bottom: 2em;
         
-        width:50%;
+        width: 50%;
 }
+
+@media (max-width: 400px) {
+        .pad {
+                width: 85%;
+        }
+}
+
+
 .pad1{
         padding-top: 2em;
         padding-bottom: 2em;
