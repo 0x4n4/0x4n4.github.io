@@ -76,7 +76,7 @@ html {
     padding-right: 1em;
 
     /*box-shadow: 0px 0.25em 0.24em rgba(56, 52, 52, 0.25);
-        border-radius: 1.5em;*/
+                                border-radius: 1.5em;*/
     justify-content: center;
     align-items: center;
     display: inline-flex;
@@ -363,8 +363,8 @@ html {
 .img1 {
     object-fit: contain;
 
-    height: 103%;
-    width: 103%;
+    height: 100%;
+    width: 100%;
 }
 
 .img2 {
