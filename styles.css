@@ -45,7 +45,11 @@ font-weight: 200;
         font-family: GamjaFlower;
         src: url(/fonts/web/GamjaFlower-Regular.woff) format("woff");
         
-                }
+}
+
+:root {
+        --banner-image-width: min(31.25em, 100vw);
+}
 
 html {
     font-family: Hauora, monospace;
@@ -108,10 +112,18 @@ html {
 
 
 #content > * {
-  
-        max-width: 100em;
+        max-width: min(100em, 100vw);
         margin: auto;
 }
+
+#banner-images {
+        width: min(calc(var(--banner-image-width) * 2 + 6px), 100vw);
+}
+
+.break-break {
+        height: 6em;
+}
+
 .h1 {    
         font-size: 1.75em; 
        font-family:Hauora;
@@ -246,7 +258,7 @@ align-self: stretch; text-align: justify}
 
 
 .preview-image {
-        width: min(31.25em, 100vw);
+        width: min(var(--banner-image-width), 100vw);
         height: min(21.875em, 100vw);
         display: inline-block;
 }
