@@ -177,7 +177,12 @@ html {
 
     width: 75%;
 }
+.pad2 {
+    padding-top: 2em;
+    padding-bottom: 2em;
 
+    width: 90%;
+}
 .content {
     align-self: stretch;
     text-align: justify
@@ -370,8 +375,8 @@ html {
 .img2 {
     object-fit: contain;
 
-    height: 175%;
-    width: 175%;
+    height: 150%;
+    width: 150%;
 }
 
 .tags-list {
