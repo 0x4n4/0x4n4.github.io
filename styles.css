@@ -301,25 +301,25 @@ html {
 
 .power {
 
-    background-image: url(/index/soclial_impact_chill.svg);
+    background-image: url(/index/social_chill.svg);
 
 }
 
 .power:hover {
 
-    background-image: url(/index/social_impact_hover.svg);
+    background-image: url(/index/social_hover.svg);
 
 }
 
 .jew {
 
 
-    background-image: url(/index/schmuck_chill.png);
+    background-image: url(/index/schmuck_chill.svg);
 }
 
 .jew:hover {
 
-    background-image: url(/index/schmuck_hover.png);
+    background-image: url(/index/schmuck_hover.svg);
 
 }
 
