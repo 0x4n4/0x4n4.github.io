@@ -293,8 +293,9 @@ html {
 
 
 .preview-image {
-    width: min(var(--banner-image-width), 100vw);
-    height: min(21.875em, 100vw);
+    width: min(21.875em, 100vw);
+    height: min(26.25em, 100vw);
+   
     display: inline-block;
 }
 
@@ -313,24 +314,24 @@ html {
 .jew {
 
 
-    background-image: url(/index/schmuck_chill.svg);
+    background-image: url(/index/schmuck_chill.png);
 }
 
 .jew:hover {
 
-    background-image: url(/index/schmuck_hover.svg);
+    background-image: url(/index/schmuck_hover.png);
 
 }
 
 .redesign {
 
-    background-image: url(/index/redesign_chill.svg);
+    background-image: url(/index/ringsizer_chill.svg);
 
 }
 
 .redesign:hover {
 
-    background-image: url(/index/redesign_hover.svg);
+    background-image: url(/index/ringsizer_hover.svg);
 
 }
 
