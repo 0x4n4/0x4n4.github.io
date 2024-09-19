@@ -301,37 +301,37 @@ html {
 
 .power {
 
-    background-image: url(/index/social_chill.svg);
+    background-image: url(/index/social1_chill.svg);
 
 }
 
 .power:hover {
 
-    background-image: url(/index/social_hover.svg);
+    background-image: url(/index/social1_hover.svg);
 
 }
 
 .jew {
 
 
-    background-image: url(/index/schmuck_chill.svg);
+    background-image: url(/index/schmuck1_chill.svg);
 }
 
 .jew:hover {
 
-    background-image: url(/index/schmuck_hover.svg);
+    background-image: url(/index/schmuck1_hover.svg);
 
 }
 
 .redesign {
 
-    background-image: url(/index/ringsizer_chill.svg);
+    background-image: url(/index/ringsizer1_chill.svg);
 
 }
 
 .redesign:hover {
 
-    background-image: url(/index/ringsizer_hover.svg);
+    background-image: url(/index/ringsizer1_hover.svg);
 
 }
 
