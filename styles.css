@@ -301,49 +301,49 @@ html {
 
 .power {
 
-    background-image: url(/index/soc_chill.svg);
+    background-image: url(/index/soci_chill.svg);
 
 }
 
 .power:hover {
 
-    background-image: url(/index/soc_hover.svg);
+    background-image: url(/index/soci_hover.svg);
 
 }
 
 .jew {
 
 
-    background-image: url(/index/schm_chill.svg);
+    background-image: url(/index/schmi_chill.svg);
 }
 
 .jew:hover {
 
-    background-image: url(/index/schm_hover.svg);
+    background-image: url(/index/schmi_hover.svg);
 
 }
 
 .redesign {
 
-    background-image: url(/index/rings_chill.svg);
+    background-image: url(/index/ringsi_chill.svg);
 
 }
 
 .redesign:hover {
 
-    background-image: url(/index/rings_hover.svg);
+    background-image: url(/index/ringsi_hover.svg);
 
 }
 
 .habit {
 
-    background-image: url(/index/habit_chill.svg);
+    background-image: url(/index/habiti_chill.svg);
 
 }
 
 .habit:hover {
 
-    background-image: url(/index/habit_hover.svg);
+    background-image: url(/index/habiti_hover.svg);
 
 }
 
