@@ -183,6 +183,12 @@ html {
 
     width: 90%;
 }
+.pad3 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    width: 95%;
+}
 .content {
     align-self: stretch;
     text-align: justify
