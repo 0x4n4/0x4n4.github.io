@@ -305,6 +305,17 @@ html {
     display: inline-block;
 }
 
+.brave {
+
+    background-image: url(/index/brave_chill.svg);
+
+}
+
+.brave:hover {
+
+    background-image: url(/index/brave_hover.svg);
+
+}
 .power {
 
     background-image: url(/index/soc_chill.svg);
