@@ -304,7 +304,17 @@ html {
    
     display: inline-block;
 }
+.spoon {
 
+    background-image: url(/index/spoon_chill.svg);
+
+}
+
+.spoon:hover {
+
+    background-image: url(/index/spoon_hover.svg);
+
+}
 .brave {
 
     background-image: url(/index/brave_chill.svg);
