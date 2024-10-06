@@ -163,6 +163,12 @@ html {
 
     width: 50%;
 }
+.pad_logo {
+    padding-top: 0.75em;
+    padding-bottom: 1em;
+
+    width: 50%;
+}
 
 @media (max-width: 400px) {
     .pad {
