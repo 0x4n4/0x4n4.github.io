@@ -48,11 +48,7 @@
     font-weight: 200;
 }
 
-@font-face {
-    font-family: GamjaFlower;
-    src: url(/fonts/web/GamjaFlower-Regular.woff) format("woff");
 
-}
 
 :root {
     --banner-image-width: min(31.25em, 100vw);
@@ -148,14 +144,7 @@ html {
     align-self: stretch;
 }
 
-.h3 {
-    font-size: 2.5em;
-    font-family: GamjaFlower;
-    color: #383434;
-    font-weight: 500;
-    text-transform: uppercase;
-    align-self: stretch;
-}
+
 
 .pad {
     padding-top: 2em;
@@ -312,71 +301,71 @@ padding-left: 0.75em;
 }
 .spoon {
 
-    background-image: url(/index/spoon_chill.svg);
+    background-image: url(/index/spoon_chill.jpg);
 
 }
 
 .spoon:hover {
 
-    background-image: url(/index/spoon_hover.svg);
+    background-image: url(/index/spoon_hover.jpg);
 
 }
 .brave {
 
-    background-image: url(/index/brave_chill.svg);
+    background-image: url(/index/brave_chill.jpg);
 
 }
 
 .brave:hover {
 
-    background-image: url(/index/brave_hover.svg);
+    background-image: url(/index/brave_hover.jpg);
 
 }
 .power {
 
-    background-image: url(/index/soc_chill.svg);
+    background-image: url(/index/soc_chill.jpg);
 
 }
 
 .power:hover {
 
-    background-image: url(/index/soc_hover.svg);
+    background-image: url(/index/soc_hover.jpg);
 
 }
 
 .jew {
 
 
-    background-image: url(/index/schm_chill.svg);
+    background-image: url(/index/schm_chill.jpg);
 }
 
 .jew:hover {
 
-    background-image: url(/index/schm_hover.svg);
+    background-image: url(/index/schm_hover.jpg);
 
 }
 
 .redesign {
 
-    background-image: url(/index/rings_chill.svg);
+    background-image: url(/index/rings_chill.jpg);
 
 }
 
 .redesign:hover {
 
-    background-image: url(/index/rings_hover.svg);
+    background-image: url(/index/rings_hover.jpg);
 
 }
 
 .habit {
 
-    background-image: url(/index/habit_chill.svg);
+    background-image: url(/index/habit_chill.jpg);
 
 }
 
 .habit:hover {
 
-    background-image: url(/index/habit_hover.svg);
+    background-image: url(/index/habit_hover.jpg);
 
 }
 
