@@ -323,25 +323,25 @@ padding-left: 0.75em;
 }
 .power {
 
-    background-image: url(/index/soc_chill.jpg);
+    background-image: url(/index/plugin_chill_lux.jpg);
 
 }
 
 .power:hover {
 
-    background-image: url(/index/soc_hover.jpg);
+    background-image: url(/index/plugin_hover_lux.jpg);
 
 }
 
 .jew {
 
 
-    background-image: url(/index/schm_chill.jpg);
+    background-image: url(/index/schm_chill_lux.jpg);
 }
 
 .jew:hover {
 
-    background-image: url(/index/schm_hover.jpg);
+    background-image: url(/index/schm_hover_lux.jpg);
 
 }
 
