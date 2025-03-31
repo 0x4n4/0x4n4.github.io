@@ -321,6 +321,19 @@ padding-left: 0.75em;
     background-image: url(/index/brave_hover.jpg);
 
 }
+
+
+.caliora {
+
+    background-image: url(/index/caliora_chill.jpg);
+
+}
+
+.caliora:hover {
+
+    background-image: url(/index/caliora_hover.jpg);
+
+}
 .power {
 
     background-image: url(/index/plugin_chill_lux.jpg);
